@@ -1,5 +1,5 @@
 # EX No.4.2. CUT SECTION OF SOLIDS
-## DATE:
+
 
 ## AIM: 
 To create the solid model from given drawing and section the solid model
@@ -11,37 +11,28 @@ To create the solid model from given drawing and section the solid model
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+1. Create a New Design: Open Autodesk Fusion 360, select New Design and set the units according to the given drawing. Select the XY plane and create a new sketch.
 
-![image](https://user-images.githubusercontent.com/113594316/198826239-a3d6ffd5-d409-46b0-ba88-3312e89e9834.png)
+2. Draw the Circular Base: Use the Circle tool and draw concentric circles at the origin. Set the diameters as Ø2.73, Ø2.41 and Ø2.11 using the Dimension (D) tool.
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+3. Create the Bowl Profile: Select the front plane and draw a vertical centre line. Use the Arc tool to create the semicircular bowl profile with the given radius R1.2.
 
-![image](https://user-images.githubusercontent.com/113594316/198826244-f377f387-16af-4f89-a57d-1808083ce178.png)
+4. Draw the Outer and Inner Curves: Create the inner and outer bowl curves using the Offset tool. Maintain the curved shape according to the given drawing.
 
-5.	Use inspect feature to measure the dimensions of sketch.
+5. Use the Trim Tool: Select Sketch → Modify → Trim (T). Remove the unwanted overlapping lines and extra arc portions to obtain a clean bowl profile.
 
-![image](https://user-images.githubusercontent.com/113594316/198826250-0e2f4985-18d7-4a07-8b1e-9c9fab11ea41.png)
+6. Create the Stem: Draw two vertical parallel lines below the bowl to form the stem. Maintain symmetry along the centre line and connect the stem to the bowl and base.
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
+7. Create the Base Profile: Draw the bottom base using lines and arcs. Apply the required dimensions and use Trim to remove extra portions.
 
-![image](https://user-images.githubusercontent.com/113594316/198826257-ccfcfd0c-040a-459e-bb9f-93c375f9177f.png)
+8. Use the Revolve Tool: Finish the sketch, select Create → Revolve, choose the closed profile and select the centre line as the axis. Set the angle to 360° to create the 3D glass shape.
 
-7.Use extrude option to convert 3D model from sketch
+9. Apply Cut and Exclude Operations: Use Create → Extrude → Cut to remove unwanted material wherever required. Use the appropriate profile selection to exclude unnecessary regions from the operation.
 
-![image](https://user-images.githubusercontent.com/113594316/198826270-d55912b8-0a02-4b36-acb2-02e9b4b328fd.png)
-
- 8.Use revolve option to convert 2D to 3D.
- 
- ![image](https://user-images.githubusercontent.com/113594316/198826282-7a4844a8-0cb2-4573-8940-9a60356b7d04.png)
-
-## INPUT:
-
-![image](https://user-images.githubusercontent.com/113594316/199409656-c021c100-857a-4ae4-9752-9ae59465c9c2.png)
+10. Finish the Model: Apply Fillet to smooth the sharp edges, inspect the bowl, stem and base, and compare the final 3D model with the given isometric drawing. Save the design.
 
 ## OUTPUT:
+<img width="1016" height="720" alt="image" src="https://github.com/user-attachments/assets/af2ac807-1baa-4ba7-8a88-36a0e2d8966c" />
 
 
 ## RESULT:
